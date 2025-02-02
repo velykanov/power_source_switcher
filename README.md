@@ -7,3 +7,7 @@ A Python-based automated power source switch for Raspberry Pi. This script dynam
 - Future Plans:
   - IPC via named pipes (FIFO) for web API integration to manually operate switching;
   - Add CAN/RS485 shield to read secondary source information.
+
+## Circuit
+
+![Power source switcher circuit](images/circuit.png "Power source switcher circuit")

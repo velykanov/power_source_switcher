@@ -1,0 +1,12 @@
+[Unit]
+Description=Power source switcher
+After=multi-user.target
+
+[Service]
+Type=exec
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/python /home/workspace/switcher/main.py
+
+[Install]
+WantedBy=multi-user.target
